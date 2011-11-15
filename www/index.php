@@ -10,12 +10,18 @@
             <div class="left" id="left">
                 
             </div>
+            <div class="left_bottom" id="left_bottom">
+                
+            </div>
             <div class="left_content" id="left_content">
                 <span class="content" id="content">
                     
                 </span>
             </div>
             <div class="right" id="right">
+                
+            </div>
+            <div class="right_bottom" id="right_bottom">
                 
             </div>
             <div class="right_content" id="right_content">
