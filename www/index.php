@@ -6,12 +6,14 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body > <!-- class="main" -->
-        <div class="main" id="main">
+        <span class="main" id="main">
             <div class="left" id="left">
                 
             </div>
             <div class="left_content" id="left_content">
-                
+                <span class="content" id="content">
+                    
+                </span>
             </div>
             <div class="right" id="right">
                 
@@ -32,7 +34,7 @@
                 
             </div>
             
-        </div>
+        </span>
         <script src="js/jquery-1.7.js"></script>
         <script src="js/main.js"></script>
     </body>

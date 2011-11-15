@@ -6,6 +6,7 @@
     left: 0px;
     right: 0px;
     bottom: 0px;
+    display: block;
 }
 .left {
     background-color: #00FF00;
@@ -129,4 +130,27 @@
    /* margin-top: -52%;*/
    display: none;
     z-index: 5;
+}
+.content {
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    bottom: 20px;
 }
