@@ -5,8 +5,16 @@
         <title>New Project</title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
-    <body > <!-- class="main" -->
+    <body > 
         <span class="main" id="main">
+            <span class="lang" id="lang">
+                <div class="lang_ru" id="lang_ru">
+                    
+                </div>
+                <div class="lang_en" id="lang_en">
+                    
+                </div>
+            </span>
             <div class="left" id="left">
                 
             </div>
@@ -42,6 +50,6 @@
             
         </span>
         <script src="js/jquery-1.7.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/main.js?<?php echo rand(10, 10000); ?>"></script>
     </body>
 </html>
