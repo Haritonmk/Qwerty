@@ -22,6 +22,9 @@
                 
             </div>
             <div class="left_content" id="left_content">
+                <div class="close" id="close">
+                    
+                </div>
                 <span class="content" id="content">
                     
                 </span>
