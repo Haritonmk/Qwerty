@@ -1,6 +1,6 @@
 function sent_ajax(element){
     $.ajax({
-        url: "/content/left.html",
+        url: "/content/content.php",
         cache: false,
         success: function(html){
             $("#"+element).html('');
