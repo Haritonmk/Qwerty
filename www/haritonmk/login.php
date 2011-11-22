@@ -54,11 +54,13 @@ if(!isset($_SESSION['admin']) || $_SESSION['admin'] == ''){
 exit();
 } else{
 ?>
-<div id="page">
-    <div id="header">
-<ul id="nav">
-        <li><a href="<?php echo "http://".$_SERVER['SERVER_NAME']."/haritonmk?logout=true";?>">Log out</a></li>
-</ul>
-    </div>
-</div>
+    <div id="page">
+        <div id="header">
+            <h1  id="logo">Administrative Area for: <br /><b>Haritonmk</b></h1>
+            <ul id="nav">
+                <li><a href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . "/haritonmk"; ?>">Admin</a></li>
+                <li><a href="<?php echo "http://" . $_SERVER['SERVER_NAME'] ; ?>">Home</a></li>
+                <li><a href="<?php echo "http://" . $_SERVER['SERVER_NAME'] . "/haritonmk?logout=true"; ?>">Log out</a></li>
+            </ul>
+        </div>
 <?php } ?>

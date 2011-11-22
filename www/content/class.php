@@ -1,4 +1,5 @@
 <?php
+require_once("class.twitter.php");
 
 class BD {
     
